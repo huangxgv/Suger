@@ -5,9 +5,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Insert title here</title>
+<title>热曲排行榜</title>
 </head>
 <body>
-热榜1
+热榜
 </body>
 </html>
