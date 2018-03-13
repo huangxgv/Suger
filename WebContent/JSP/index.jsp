@@ -9,7 +9,9 @@
 </head>
 <body>
 	<div id='index_MainHeader'>
-		<div id='index_MainHeader_left'>logo</div>
+		<div id='index_MainHeader_left'>
+			<img src="" alt="Sugar" />
+		</div>
 		<div id='index_MainHeader_mid'>list</div>
 		<div id='index_MainHeader_right'>search</div>
 	</div>
@@ -136,7 +138,12 @@
 			</div>
 			<div class='index_MainBody_song'></div>
 		</div>
-		<div id='index_MainBody_bottom'>底部信息</div>
+		<div id='index_MainBody_bottom'>
+			<ul class='index_MainBody_partner'>
+				<!-- 动态生成合作商 -->
+			</ul>
+		</div>
+		<div id='index_MainBody_footer'>底部信息</div>
 	</div>
 	<div id='index_MainFooter'></div>
 </body>
