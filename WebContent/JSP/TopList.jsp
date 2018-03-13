@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-热榜
+热榜1
 </body>
 </html>
