@@ -143,7 +143,16 @@
 				<!-- 动态生成合作商 -->
 			</ul>
 		</div>
-		<div id='index_MainBody_footer'>底部信息</div>
+		<div id='index_MainBody_footer'>
+			<ul>
+				<li><p></p></li>
+				<li><ul>
+						<!-- 动态生成 -->
+					</ul></li>
+				<li><p></p></li>
+				<li><p></p></li>
+			</ul>
+		</div>
 	</div>
 	<div id='index_MainFooter'></div>
 </body>
