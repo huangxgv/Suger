@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>个人空间</title>
+<title>动态空间</title>
 </head>
 <body>
 <div id='index_MainHeader'>
@@ -16,8 +16,8 @@
 			<ul>
 				<li><a href='index.jsp'>首页</a></li>
 				<li><a href='TopList.jsp'>热曲排行榜</a></li>
-				<li><a href='Space.jsp'>动态空间</a></li>
-				<li><a href='#'>个人盒子</a></li>
+				<li><a href='#'>动态空间</a></li>
+				<li><a href='MySpace.jsp'>个人盒子</a></li>
 			</ul>
 		</div>
 		<div id='index_MainHeader_mid_mid'>list</div>

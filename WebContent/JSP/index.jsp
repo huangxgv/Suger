@@ -10,9 +10,18 @@
 <body>
 	<div id='index_MainHeader'>
 		<div id='index_MainHeader_left'>
-			<img src="" alt="Sugar" />
+			<img src="../IMG/logo.jpg" alt="Sugar" />
 		</div>
-		<div id='index_MainHeader_mid'>list</div>
+		<div id='index_MainHeader_mid_left'>
+			<ul>
+				<li><a href='#'>首页</a></li>
+				<li><a href='TopList.jsp'>热曲排行榜</a></li>
+				<li><a href='Space.jsp'>动态空间</a></li>
+				<li><a href='MySpace.jsp'>个人盒子</a></li>
+			</ul>
+		</div>
+		<div id='index_MainHeader_mid_mid'>list</div>
+		<div id='index_MainHeader_mid_right'>list</div>
 		<div id='index_MainHeader_right'>search</div>
 	</div>
 	<div id='index_MainBody'>
