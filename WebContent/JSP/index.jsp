@@ -22,9 +22,29 @@
 				<li><a href='MySpace.jsp'>个人盒子</a></li>
 			</ul>
 		</div>
-		<div id='index_MainHeader_mid_mid'>list</div>
-		<div id='index_MainHeader_mid_right'>list</div>
-		<div id='index_MainHeader_right'>search</div>
+		<div id='index_MainHeader_mid_mid'>
+			<ul>
+				<li><a href="#"><span>&spades;</span>会员</a></li>
+				<li><a href="#"><span>&hearts;</span>音乐秀</a></li>
+				<li><a href="#"><span>&clubs;</span>糖果商城</a></li>
+				<li><a href="#"><span>&diams;</span>电台</a></li>
+			</ul>
+		</div>
+		<div id='index_MainHeader_mid_right'>
+			<ul>
+				<li id='signin'><a href="#"><span>登录 &uarr;</span> </a>
+					<ul>
+						<li><a href="#3"><span>&weierp;</span>糖果账号登录</a></li>
+						<li><img src="../IMG/weibo.png" alt="微博" /><a href="#2">微博登录</a></li>
+						<li><img src="../IMG/QQ.png" alt="qq" /><a href="#1">QQ帐号登录</a></li>
+					</ul></li>
+				<li id='singup'><a href="#"><span>注册</span></a></li>
+			</ul>
+		</div>
+		<div id='index_MainHeader_right'>
+			<input class='header_search_input' placeholder='遇见你真好' type='text' />
+			<button class='header_search_button'>搜索</button>
+		</div>
 	</div>
 	<div id='index_MainBody'>
 		<div id='index_MainBody_top'></div>
