@@ -6,6 +6,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>首页</title>
+<link href="../CSS/publicStyle.css" rel="stylesheet" type="text/css" />
+<link href="../CSS/indexStyle.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div id='index_MainHeader'>
@@ -14,7 +16,7 @@
 		</div>
 		<div id='index_MainHeader_mid_left'>
 			<ul>
-				<li><a href='#'>首页</a></li>
+				<li><a href='#' class="active">首页</a></li>
 				<li><a href='TopList.jsp'>热曲排行榜</a></li>
 				<li><a href='Space.jsp'>动态空间</a></li>
 				<li><a href='MySpace.jsp'>个人盒子</a></li>
@@ -25,7 +27,7 @@
 		<div id='index_MainHeader_right'>search</div>
 	</div>
 	<div id='index_MainBody'>
-		<div id='index_MainBody_top'>幻灯片</div>
+		<div id='index_MainBody_top'></div>
 		<div id='index_MainBody_body_one'>
 			<div class='index_MainBody_flag'>
 				<div class='index_MainBody_flag_left'>
@@ -45,49 +47,49 @@
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 					<li><div>
 							<img src="" alt="" />
 							<div>
 								<span>1</span> <span>2</span>
 							</div>
-						</div> <a>图片下方文字</a></li>
+						</div> <a></a></li>
 				</ul>
 			</div>
 			<div class='index_MainBody_song'></div>

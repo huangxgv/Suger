@@ -1,5 +1,58 @@
-* {
-	padding: 0;
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset,
+	legend, input, textarea, select, a, li {
 	margin: 0;
-	list-style:none;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*公共模块样式*/
+#index_MainHeader {
+	position: fixed;
+	top: 0;
+	width: 113.84em;
+	height: 4.1em;
+	background-color: rgba(24, 24, 24, 1);
+}
+
+#index_MainHeader_left, #index_MainHeader_mid_left,
+	#index_MainHeader_mid_mid, #index_MainHeader_mid_right,
+	#index_MainHeader_right {
+	float: left;
+	height: 100%;
+	line-height: 4em;
+}
+
+#index_MainHeader_left {
+	width: 12em;
+}
+
+#index_MainHeader_left img {
+	padding: 0.1em 0 0 3em
+}
+
+#index_MainHeader_mid_left {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	margin-top: -5px;
+}
+
+#index_MainHeader_mid_left ul {
+	width: 20em;
+	height: 100%;
+}
+
+#index_MainHeader_mid_left ul li {
+	float: left;
+	margin-left: 1em;
+}
+
+#index_MainHeader_mid_left ul li a {
+	color: #fff;
+}
+
+#index_MainHeader_mid_left .active {
+	color: #FECA2E;
 }
