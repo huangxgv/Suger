@@ -188,12 +188,27 @@
 	</div>
 	<div id='index_MainFooter'>
 		<div class='play_control'>
-		<div class="pre"></div>
-		<div class="play"></div>
-		<div class='next'></div>
+			<div class="pre"></div>
+			<div class="play"></div>
+			<div class='next'></div>
 		</div>
-		<div class='play_progress'></div>
-		<div class='function_bar'></div>
+		<div class='play_progress'>
+			<div class="bottom_logo"></div>
+			<div class="prossgroup">
+				<div class="Lyrics">听说白雪公主在逃跑</div>
+				<div class="pross"></div>
+				<div class="music_bar"></div>
+				<span>0:00</span>
+			</div>
+		</div>
+		<div class='function_bar'>
+			<div class='Mute'></div>
+			<div class='cycle'></div>
+			<div class='download'></div>
+			<div class='Collection'></div>
+			<div class='song_list'></div>
+			<div class='share'></div>
+		</div>
 	</div>
 </body>
 </html>

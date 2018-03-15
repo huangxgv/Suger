@@ -180,7 +180,7 @@ body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset,
 	bottom: 0;
 	width: 113.84em;
 	height: 4em;
-	/*background-color: rgba(24, 24, 24, 1);*/
+	background-color: rgba(24, 24, 24, 1);
 }
 
 #index_MainFooter div {
@@ -194,7 +194,158 @@ body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset,
 }
 
 #index_MainFooter .play_control .pre {
-	width: 12em;
+	width: 2em;
+	height: 2em;
+	margin: 1em 0 0 4em;
+	line-height: 100%;
+	background: url("../IMG/icon.png") -4.75em -7.25em;
+	cursor: pointer;
+}
+
+#index_MainFooter .play_control .pre:hover {
+	background: url("../IMG/icon.png") -4.75em -9.7em;
+}
+
+#index_MainFooter .play_control .play {
+	width: 2.6em;
+	height: 2.5em;
+	margin: .7em 0 0 1em;
+	line-height: 100%;
+	background: url("../IMG/icon.png") -8.55em -7.05em;
+	cursor: pointer;
+}
+
+#index_MainFooter .play_control .play:hover {
+	background: url("../IMG/icon.png") -8.55em -9.55em;
+}
+
+#index_MainFooter .play_control .next {
+	width: 2em;
+	height: 2em;
+	margin: 1em 0 0 1em;
+	line-height: 100%;
+	background: url("../IMG/icon.png") -12.8em -7.25em;
+	cursor: pointer;
+}
+
+#index_MainFooter .play_control .next:hover {
+	background: url("../IMG/icon.png") -12.8em -9.75em;
+}
+
+#index_MainFooter .play_progress {
+	width: 32em;
 	height: 100%;
-	background: url("../IMG/sugar.jpg") -13em -13em;
+}
+
+#index_MainFooter .play_progress div {
+	display: inline-block;
+}
+
+#index_MainFooter .play_progress .bottom_logo {
+	width: 2.5em;
+	height: 3em;
+	float: left;
+	margin: 0.5em 0.5em 0 1em;
+	background: url("../IMG/candy.png");
+}
+
+#index_MainFooter .prossgroup {
+	position: relative;
+}
+
+#index_MainFooter .play_progress .Lyrics {
+	position: absolute;
+	top: .8em;
+	left: 1em;
+	whdth: 18em;
+	height: 1em;
+	line-height: 1em;
+	color: #CACACA;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
+#index_MainFooter .play_progress .pross {
+	width: 20em;
+	height: 0.2em;
+	margin: 2.3em 0 0 0;
+	background: orange;
+	cursor: pointer;
+}
+
+#index_MainFooter .play_progress .music_bar {
+	position: absolute;
+	width: .8em;
+	height: .8em;
+	border-radius: .4em;
+	display: inline-block;
+	background-color: orange;
+	top: 2em;
+	cursor: pointer;
+}
+
+#index_MainFooter .prossgroup span {
+	display: inline-block;
+	color: #CACACA;
+	margin: 1.75em 0 0 1.2em;
+}
+
+#index_MainFooter .function_bar {
+	width: 34em;
+	height: 100%;
+	position: relative;
+}
+
+#index_MainFooter .function_bar div {
+	display: inline-block;
+	float: left;
+}
+
+#index_MainFooter .function_bar .Mute {
+	width: 1.2em;
+	height: 1em;
+	margin: 1.5em 0 0 0;
+	cursor: pointer;
+	background: url("../IMG/icon.png") -16.5em -7em;
+}
+
+#index_MainFooter .function_bar .Mute:hover {
+	background: url("../IMG/icon.png") -16.5em -8em;
+}
+
+#index_MainFooter .function_bar .zero {
+	width: 1.2em;
+	height: 1em;
+	margin: 1.5em 0 0 0;
+	cursor: pointer;
+	background: url("../IMG/icon.png") -19.4em -8em;
+}
+
+#index_MainFooter .function_bar .zero:hover {
+	background: url("../IMG/icon.png") -19.4em -7em;
+}
+
+#index_MainFooter .function_bar .cycle {
+	width: 1.8em;
+	height: 1.5em;
+	margin: 1.3em 0 0 2em;
+	cursor: pointer;
+	background: url("../IMG/icon.png") -.95em -10.6em;
+}
+
+#index_MainFooter .function_bar .cycle:hover {
+	background: url("../IMG/icon.png") -2.75em -10.6em;
+}
+
+#index_MainFooter .function_bar .download {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 1.3em 0 0 2em;
+	cursor: pointer;
+	background: url("../IMG/icon.png") -14.9em -7em;
+}
+
+#index_MainFooter .function_bar .download:hover {
+	background: url("../IMG/icon.png") -14.9em -8.5em;
 }
