@@ -140,6 +140,10 @@ body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset,
 	display: block;
 }
 
+#index_MainHeader_mid_right ul li:hover ul li:hover {
+	font-weight: bold;
+}
+
 #singup>a {
 	font-size: 1.2em;
 	font-weight: bold;
@@ -160,11 +164,37 @@ body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset,
 	background-color: rgba(80, 80, 80, 1);
 	color: #A9A9A9;
 }
-#index_MainHeader_right .header_search_button{
+
+#index_MainHeader_right .header_search_button {
 	display: inline-block;
-	width:3.5em;
-	height:2em;
-	border:1px black silver;
+	width: 3.5em;
+	height: 2em;
+	border: 1px black silver;
 	border-radius: 0.7em;
 	font-weight: bold;
+}
+
+/*底部固定播放条样式*/
+#index_MainFooter {
+	position: fixed;
+	bottom: 0;
+	width: 113.84em;
+	height: 4em;
+	/*background-color: rgba(24, 24, 24, 1);*/
+}
+
+#index_MainFooter div {
+	float: left;
+}
+
+#index_MainFooter .play_control {
+	/*background-color: red;*/
+	width: 17em;
+	height: 100%;
+}
+
+#index_MainFooter .play_control .pre {
+	width: 12em;
+	height: 100%;
+	background: url("../IMG/sugar.jpg") -13em -13em;
 }

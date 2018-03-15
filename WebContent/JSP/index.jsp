@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>首页</title>
+<link rel="icon" type="image/x-icon" href="Candy.ico" />
 <link href="../CSS/publicStyle.css" rel="stylesheet" type="text/css" />
 <link href="../CSS/indexStyle.css" rel="stylesheet" type="text/css" />
 </head>
@@ -185,6 +186,14 @@
 			</ul>
 		</div>
 	</div>
-	<div id='index_MainFooter'></div>
+	<div id='index_MainFooter'>
+		<div class='play_control'>
+		<div class="pre"></div>
+		<div class="play"></div>
+		<div class='next'></div>
+		</div>
+		<div class='play_progress'></div>
+		<div class='function_bar'></div>
+	</div>
 </body>
 </html>
