@@ -205,9 +205,30 @@
 			<div class='Mute'></div>
 			<div class='cycle'></div>
 			<div class='download'></div>
-			<div class='Collection'></div>
-			<div class='song_list'></div>
-			<div class='share'></div>
+			<div class='Collection collected'>&hearts;</div>
+			<div class='song_list'>
+				<div class='song_list_content'>
+					<div class="song_list_listname"></div>
+					<p id='song_list_content_flag'>糖果音乐</p>
+					<div id='song_list_content_mid'></div>
+					<p id='listname_number'>播放列表(1)</p>
+					<div id='song_word'>歌词正在加载中....</div>
+					<div id='song_list_table'>九张机-(网剧《双世宠妃》主题曲)</div>
+				</div>
+			</div>
+			<div class='share'>
+				<div class='share_style'>
+					<a class="share_ren"></a> <a class="share_weibo"></a> <a
+						class="share_qq"></a>
+				</div>
+				<div id="ccl">
+					<div id="com_f"></div>
+				</div>
+				<div id='com_h'></div>
+			</div>
+			<div class='sowf'>
+				<img src="../IMG/ewm.png" alt="二维码" />
+			</div>
 		</div>
 	</div>
 </body>
